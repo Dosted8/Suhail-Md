@@ -19,10 +19,5 @@ steps:
 -name: checkout repository
 uses: actions/checkout@v3
 
-with: 
-node-version: $ {{matrix.node-version}}
-  -name: install be dependencies
-   run: npm install
-
 -name: Start application
   run: npm start￼Enter
